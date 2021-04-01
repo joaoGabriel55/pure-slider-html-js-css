@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <span id="min-value">10</span>
+    <div class="middle">
+      <div class="multi-range-slider">
+        <input type="range" id="input-left" min="10" max="500" value="10" />
+        <input type="range" id="input-right" min="10" max="500" value="500" />
+
+        <div class="slider">
+          <div class="track"></div>
+          <div class="range"></div>
+          <div class="thumb left"></div>
+          <div class="thumb right"></div>
+        </div>
+      </div>
+    </div>
+    <span id="max-value">500</span>
+  </body>
+  <script src="index.js"></script>
+</html>
